@@ -1,5 +1,6 @@
 import { app } from "./app.js";
-const cors = require('cors');
+// const cors = require('cors');
+import cors from 'cors';
 
 app.use(cors()); // Enable CORS for all routes
 
